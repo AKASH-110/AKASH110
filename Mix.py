@@ -21,8 +21,8 @@ print('\n\n\033[1;37m[•] This tools only for 64bit device ')
 print('\n[1] RANDOM NUMBER CLONE M1 \n[2] RANDOM NUMBER CLONE M2 (Updated)\n[3] Check Update \n')
 xd=input('[•] choose: ')
 if xd in ['1','01']:
-    if path.isfile('arc64.cpython-311.so'):
-        import arc64
+    if path.isfile('arch64.cpython-310.so'):
+        import arch64
     
 elif xd in ['2','02']:
     if path.isfile('mb1.cpython-311.so'):
